@@ -97,7 +97,7 @@ if(carts.length===0){
                   <div className="flex flex-col justify-between ml-4 flex-grow">
                     <span className="font-bold text-sm">{cart.title}</span>
                     <span className="font-bold text-sm">{cart.category}</span>
-                    <div className="font-semibold hover:text-red-500 text-gray-500 text-sm" onClick={()=>handleRemove(cart.id)}>
+                    <div className="font-semibold hover:text-red-500 text-gray-500 text-sm cursor-pointer" onClick={()=>handleRemove(cart.id)}>
                       remove
                     </div>
                   </div>
