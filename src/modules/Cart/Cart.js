@@ -143,7 +143,7 @@ if(carts.length===0){
           </h1>
           <div className="flex justify-between mt-10 mb-5">
             <span className="text-sm font-semibold uppercase">items {carts.length}</span>
-            <span className="text-sm font-semibold"> $ {total*80}</span>
+            <span className="text-sm font-semibold"> $ {(total*80).toFixed(2)}</span>
           </div>
           <div>
             <label className="font-medium inline-block mb-3 text-sm uppercase">
@@ -173,7 +173,7 @@ if(carts.length===0){
           </button>
           <div className="flex p-y-6 justify-between uppercase text-sm font-semibold">
             <span>Total cost</span>
-            <span> $ {total*80 +10}</span>
+            <span> $ {(total*80 +10 ).toFixed(2)}</span>
           </div>
           <button className="bg-indigo-400 hover:bg-indigo-600 font-semibold py-3 text-sm uppercase text-white w-full">
             {" "}
