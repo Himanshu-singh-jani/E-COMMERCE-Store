@@ -13,7 +13,7 @@ return acc +(item.price *item.quantity)
 
 settotal(total)
 
-},[])
+},[carts])
 
 
 const handleDec=(id)=>{
@@ -24,6 +24,7 @@ const handleDec=(id)=>{
         ...item,
         quantity:item.quantity-1
       }
+     
     }
     return item
   })
@@ -47,6 +48,8 @@ const handleInc=(id)=>{
  const handleRemove=(id)=>{
   const updatedCart=carts.filter(item=> item.id !== id)
   localStorage.setItem('cart',JSON.stringify(updatedCart))
+
+  navigate('/cart')
  }
 
 if(carts.length===0){
@@ -116,7 +119,7 @@ if(carts.length===0){
                   {cart.price*80}
                 </span>
                 <span className="text-center w-1/5 font-semibold text-sm">
-                 {cart.price*cart.quantity}
+                 {cart.price*cart.quantity *80}
                 </span>
               </div>
 
