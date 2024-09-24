@@ -116,10 +116,10 @@ if(carts.length===0){
                   </button>
                 </div>
                 <span className="text-center w-1/5 font-semibold text-sm">
-                  {cart.price*80}
+                 ₹ {cart.price*80}
                 </span>
                 <span className="text-center w-1/5 font-semibold text-sm">
-                 {cart.price*cart.quantity *80}
+                ₹ {cart.price*cart.quantity *80}
                 </span>
               </div>
 
