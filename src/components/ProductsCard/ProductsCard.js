@@ -31,7 +31,7 @@ const ProductsCard = ({ products = [] }) => {
                   <h2 className="text-gray-900 title-font text-lg font-medium">
                     {title}
                   </h2>
-                  <p className="mt-1 text-xl font-bold">$ {price*80}</p>
+                  <p className="mt-1 text-xl font-bold">₹ {price*80}</p>
                 </div>
               </Link>
             );
