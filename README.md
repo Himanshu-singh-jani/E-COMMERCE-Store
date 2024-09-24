@@ -6,9 +6,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm install`
+https://github.com/user-attachments/assets/9a6449a2-7098-4674-8e90-349d8d5d835b
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-https://github.com/Himanshu-singh-jani/E-COMMERCE-Store/issues/1#issue-2545538930
