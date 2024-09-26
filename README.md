@@ -1,7 +1,7 @@
 
 
 ## `E-commerce-app`
-This project is an e-commerce web application built using modern front-end technologies including HTML, CSS, JavaScript, React, and Tailwind CSS. It features dynamic data fetching and provides a seamless user experience for browsing and purchasing products.
+#### This project is an e-commerce web application built using modern front-end technologies including HTML, CSS, JavaScript, React, and Tailwind CSS. It features dynamic data fetching and provides a seamless user experience for browsing and purchasing products.
 
 ### Features
 1. Dynamic Data: The app fetches product data from an API to ensure up-to-date information is displayed.
